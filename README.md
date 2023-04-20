@@ -1,0 +1,2 @@
+# JAS
+Juridisch analytisch schema 
