@@ -289,9 +289,31 @@
         <ref role="1fE_qF" node="4oA7p__Mrvt" resolve="Fatale verplichting zo snel mogelijk doorlopen" />
       </node>
     </node>
+    <node concept="2mG0Cb" id="YYGdfDeFmI" role="2bv6Cn">
+      <property role="TrG5h" value="rechtsobject - fatale verplichting zo snel mogelijk doorlopen" />
+      <node concept="2mG0Ck" id="YYGdfDeFmJ" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetgangerslicht" />
+        <property role="16Ztxt" value="true" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="4oA7p__MuML" resolve="voetgangerslicht" />
+      </node>
+      <node concept="2mG0Ck" id="YYGdfDeFmK" role="2mG0Ct">
+        <property role="u$DAK" value="false" />
+        <property role="TrG5h" value="fatale verplichting zo snel mogelijk doorlopen " />
+        <property role="16Ztxu" value="fatale verplichtingen zo snel mogelijk doorlopen" />
+        <ref role="1fE_qF" node="4oA7p__Mrvt" resolve="Fatale verplichting zo snel mogelijk doorlopen" />
+      </node>
+    </node>
     <node concept="3H5gaA" id="4oA7p__M_6b" role="2bv6Cn" />
     <node concept="2bvS6$" id="4oA7p__Mv0a" role="2bv6Cn">
       <property role="TrG5h" value="bevoegdheid om te kunnen opleggen van administratieve sanctie" />
+    </node>
+    <node concept="2bvS6$" id="YYGdfDeFV7" role="2bv6Cn">
+      <property role="TrG5h" value="voetganger stapt aan de overkant van de stoep" />
+      <node concept="2bpyt6" id="YYGdfDeFXl" role="2bv01j">
+        <property role="TrG5h" value="plaatsgevonden" />
+      </node>
     </node>
     <node concept="3H5gaA" id="4oA7p__M_4H" role="2bv6Cn" />
     <node concept="2mG0Cb" id="4oA7p__MuQX" role="2bv6Cn">

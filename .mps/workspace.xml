@@ -225,7 +225,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1134538580341462603" />
+              <option name="myItemId" value="1134538580341473127" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684160044095</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rechtsobject aanvulling bij Verlof om te beginnen met oversteken">
+      <created>1684223830465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684223830465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -283,6 +290,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Eerste schets inzake JAS in ALEF" />
     <MESSAGE value="git attributes in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="git attributes in main" />
+    <MESSAGE value="Rechtsobject aanvulling bij Verlof om te beginnen met oversteken" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rechtsobject aanvulling bij Verlof om te beginnen met oversteken" />
   </component>
 </project>

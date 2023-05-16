@@ -586,6 +586,38 @@
         <node concept="2ljwA5" id="7jOLr3Vl3tF" role="1nvPAL" />
       </node>
     </node>
+    <node concept="1HSql3" id="YYGdfDeFBp" role="1HSqhF">
+      <property role="TrG5h" value="beeindigen van de verplichting van fatale verplichting zo snel mogelijk doorlopen" />
+      <node concept="1wO7pt" id="YYGdfDeFBr" role="kiesI">
+        <node concept="2boe1W" id="YYGdfDeFBs" role="1wO7pp">
+          <node concept="2zaH5l" id="YYGdfDeFJz" role="1wO7i6">
+            <ref role="2zaJI2" to="reqi:4oA7p__MBys" resolve="beeindigd" />
+            <node concept="3_mHL5" id="YYGdfDeFMr" role="pRcyL">
+              <node concept="ean_g" id="YYGdfDeFMs" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:YYGdfDeFmK" resolve="fatale verplichting zo snel mogelijk doorlopen " />
+              </node>
+              <node concept="3_kdyS" id="YYGdfDeFMt" role="pQQuc">
+                <ref role="Qu8KH" to="reqi:YYGdfDeFmJ" resolve="voetgangerslicht" />
+              </node>
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="YYGdfDeFNv" role="1wO7i3">
+            <node concept="3_mHL5" id="YYGdfDeFNw" role="2z5D6P">
+              <node concept="ean_g" id="YYGdfDeFNx" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:7jOLr3Vl3eO" resolve="verspringen van de kleur naar groen" />
+              </node>
+              <node concept="3yS1BT" id="YYGdfDeFNy" role="pQQuc">
+                <ref role="3yS1Ki" node="YYGdfDeFMt" resolve="voetgangerslicht" />
+              </node>
+            </node>
+            <node concept="28IzFB" id="YYGdfDeFS3" role="2z5HcU">
+              <ref role="28I$VD" to="reqi:7jOLr3Vl3a1" resolve="plaatsgevonden" />
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="YYGdfDeFBu" role="1nvPAL" />
+      </node>
+    </node>
   </node>
   <node concept="2bQVlO" id="YYGdfDeDpb">
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit - verspringen van het licht naar rood" />
@@ -654,6 +686,12 @@
         </node>
         <node concept="2ljwA5" id="YYGdfDeDAs" role="1nvPAL" />
       </node>
+    </node>
+  </node>
+  <node concept="2bQVlO" id="YYGdfDeFXB">
+    <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit - voetganger stapt aan de overkant van de stoep" />
+    <node concept="1HSql3" id="YYGdfDeFZ7" role="1HSqhF">
+      <property role="TrG5h" value="beeindigen van de verplichting van fatale verplichting zo snel mogelijk doorlopen" />
     </node>
   </node>
 </model>
