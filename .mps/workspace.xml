@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4a8beb5-74d7-40d2-bffb-1bf0161a7992" name="Changes" comment="" />
+    <list default="true" id="a4a8beb5-74d7-40d2-bffb-1bf0161a7992" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/models/gegevens.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/models/gegevens.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/models/regels.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/models/regels.mps" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +28,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="ba67ab23-2840-45df-b776-a7e1b83339c8/r:164d68b2-1274-4999-8252-b0e8382d4277(TempModuleba67ab23-2840-45df-b776-a7e1b83339c8/ConsoleModel_25162885871132)">
+            <model ref="43a482be-dd25-4329-9ec6-ce697b1d3138/r:2b35141c-f48e-4c0a-91e4-ff6e7d690f08(TempModule43a482be-dd25-4329-9ec6-ce697b1d3138/ConsoleModel_1779274406757700)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -44,11 +48,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3DJsZY4uwex">
-                <node concept="3balQm" id="3DJsZY4uwey" role="aymYE" />
-                <node concept="2Clz$F" id="3DJsZY4uwez" role="aymYO" />
-                <node concept="2_V_lH" id="3DJsZY4uwe$" role="1PhJh3">
-                  <ref role="2_V_lI" node="3DJsZY4uwez" resolve="CommandHolder" />
+              <node concept="aymSD" id="YYGdfDe_kR">
+                <node concept="3balQm" id="YYGdfDe_kS" role="aymYE" />
+                <node concept="2Clz$F" id="YYGdfDe_kT" role="aymYO" />
+                <node concept="2_V_lH" id="YYGdfDe_kU" role="1PhJh3">
+                  <ref role="2_V_lI" node="YYGdfDe_kT" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -148,6 +152,9 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -158,20 +165,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JAS" />
+              <option name="myItemId" value="Project JAS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JAS" />
+              <option name="myItemId" value="Project JAS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project JAS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -179,13 +193,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/JAS/solutions/Specificaties/models/regels.mps]" />
+              <option name="myItemId" value="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/regels.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JAS" />
+              <option name="myItemId" value="Project JAS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -193,23 +207,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:b42ef14e-33a1-4607-acd1-6f901f8b2a83(gegevens) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/JAS/solutions/Specificaties/models/gegevens.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JAS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
+              <option name="myItemId" value="r:b42ef14e-33a1-4607-acd1-6f901f8b2a83(gegevens) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/gegevens.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JAS" />
+              <option name="myItemId" value="Project JAS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -217,7 +221,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:e73ac85a-28a8-4592-bafc-a3aa6c4bbe45(tests) in IdeaFile[path: /Users/diederikdulfer/MPSProjects/JAS/solutions/Specificaties/models/tests.mps]" />
+              <option name="myItemId" value="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/regels.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1134538580341462603" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>

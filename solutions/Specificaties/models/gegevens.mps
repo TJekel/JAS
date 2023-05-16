@@ -38,6 +38,7 @@
       <concept id="8989128614612178023" name="gegevensspraak.structure.Naamwoord" flags="ng" index="16ZtyY">
         <property id="5970487230362691956" name="onderdrukLidwoord" index="2n7kvO" />
         <property id="8989128614612178052" name="isOnzijdig" index="16Ztxt" />
+        <property id="8989128614612178055" name="meervoudsvorm" index="16Ztxu" />
       </concept>
       <concept id="5917060184181247285" name="gegevensspraak.structure.DomeinType" flags="ng" index="1EDDfm">
         <reference id="5917060184181247286" name="domein" index="1EDDfl" />
@@ -211,6 +212,23 @@
         <ref role="1fE_qF" node="4oA7p__Mruz" resolve="Verlof om over te steken" />
       </node>
     </node>
+    <node concept="2mG0Cb" id="YYGdfDeEwD" role="2bv6Cn">
+      <property role="TrG5h" value="rechtsobject - Verlof om te beginnen met over te steken" />
+      <node concept="2mG0Ck" id="YYGdfDeEwE" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetgangerslicht" />
+        <property role="16Ztxt" value="true" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="4oA7p__MuML" resolve="voetgangerslicht" />
+      </node>
+      <node concept="2mG0Ck" id="YYGdfDeEwF" role="2mG0Ct">
+        <property role="u$DAK" value="false" />
+        <property role="TrG5h" value="verlof om te beginnen met over te steken" />
+        <property role="16Ztxu" value="verloven om te beginnen met over te stekens" />
+        <ref role="1fE_qF" node="4oA7p__Mruz" resolve="Verlof om te beginnen met over te steken" />
+      </node>
+    </node>
+    <node concept="3H5gaA" id="YYGdfDeEv3" role="2bv6Cn" />
     <node concept="3H5gaA" id="4oA7p__MzOR" role="2bv6Cn" />
     <node concept="3Ih38J" id="4oA7p__MzLR" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsbetrekking" />
@@ -356,6 +374,23 @@
         <property role="2n7kvO" value="true" />
       </node>
     </node>
+    <node concept="2mG0Cb" id="YYGdfDeD9I" role="2bv6Cn">
+      <property role="TrG5h" value="verkeerslicht wordt rood" />
+      <node concept="2mG0Ck" id="YYGdfDeD9J" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetgangerslicht" />
+        <property role="2mCGrO" value="ondergaat" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="4oA7p__MuML" resolve="voetgangerslicht" />
+      </node>
+      <node concept="2mG0Ck" id="YYGdfDeD9K" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="verspringen van de kleur naar rood" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="7jOLr3Vl2WS" resolve="verspringen van de kleur naar rood" />
+      </node>
+    </node>
+    <node concept="3H5gaA" id="YYGdfDeD8c" role="2bv6Cn" />
     <node concept="2bvS6$" id="7jOLr3Vl37P" role="2bv6Cn">
       <property role="TrG5h" value="voetganger stapt aan de overkant op de stoep" />
       <node concept="2bpyt6" id="7jOLr3Vl3aN" role="2bv01j">

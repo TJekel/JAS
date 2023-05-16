@@ -519,9 +519,9 @@
     </node>
   </node>
   <node concept="2bQVlO" id="7jOLr3Vl3ji">
-    <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit - verscpringen van het licht naar groen" />
+    <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit - verspringen van het licht naar groen" />
     <node concept="1HSql3" id="7jOLr3Vl3jj" role="1HSqhF">
-      <property role="TrG5h" value="aanpassen van het juridisch relevant feit - Het voetgangersstoplicht bij de oversteekplaats staat op:" />
+      <property role="TrG5h" value="aanpassen van het juridisch relevant feit - Het voetgangersstoplicht bij de oversteekplaats verspringt naar groen" />
       <node concept="1wO7pt" id="7jOLr3Vl3jk" role="kiesI">
         <node concept="2boe1W" id="7jOLr3Vl3jl" role="1wO7pp">
           <node concept="2boe1X" id="7jOLr3Vl3jq" role="1wO7i6">
@@ -584,6 +584,75 @@
           </node>
         </node>
         <node concept="2ljwA5" id="7jOLr3Vl3tF" role="1nvPAL" />
+      </node>
+    </node>
+  </node>
+  <node concept="2bQVlO" id="YYGdfDeDpb">
+    <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit - verspringen van het licht naar rood" />
+    <node concept="1HSql3" id="YYGdfDeCQD" role="1HSqhF">
+      <property role="TrG5h" value="aanpassen van het juridisch relevant feit - Het voetgangersstoplicht bij de oversteekplaats verspringt naar rood" />
+      <node concept="1wO7pt" id="YYGdfDeCQF" role="kiesI">
+        <node concept="2boe1W" id="YYGdfDeCQG" role="1wO7pp">
+          <node concept="2boe1X" id="YYGdfDeD0y" role="1wO7i6">
+            <node concept="3_mHL5" id="YYGdfDeD0z" role="2bokzF">
+              <node concept="c2t0s" id="YYGdfDeD1j" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:4oA7p__MuNn" resolve="kleur" />
+              </node>
+              <node concept="3_kdyS" id="YYGdfDeD1i" role="pQQuc">
+                <ref role="Qu8KH" to="reqi:4oA7p__MuML" resolve="voetgangerslicht" />
+              </node>
+            </node>
+            <node concept="16yQLD" id="YYGdfDeD2r" role="2bokzm">
+              <ref role="16yCuT" to="reqi:4oA7p__MuOO" resolve="Rood" />
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="YYGdfDeD3S" role="1wO7i3">
+            <node concept="3_mHL5" id="YYGdfDeD3T" role="2z5D6P">
+              <node concept="ean_g" id="YYGdfDeD3U" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:YYGdfDeD9K" resolve="verspringen van de kleur naar rood" />
+              </node>
+              <node concept="3yS1BT" id="YYGdfDeD3V" role="pQQuc">
+                <ref role="3yS1Ki" node="YYGdfDeD1i" resolve="voetgangerslicht" />
+              </node>
+            </node>
+            <node concept="28IzFB" id="YYGdfDeDiq" role="2z5HcU">
+              <ref role="28I$VD" to="reqi:7jOLr3Vl3au" resolve="plaatsgevonden" />
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="YYGdfDeCQI" role="1nvPAL" />
+      </node>
+    </node>
+    <node concept="1HSql3" id="YYGdfDeDkV" role="1HSqhF">
+      <property role="TrG5h" value="beeindingen van het verlof om te beginnen met over te steken" />
+      <node concept="1wO7pt" id="YYGdfDeDAp" role="kiesI">
+        <node concept="2boe1W" id="YYGdfDeDAq" role="1wO7pp">
+          <node concept="2zaH5l" id="YYGdfDeDDK" role="1wO7i6">
+            <ref role="2zaJI2" to="reqi:4oA7p__MBy1" resolve="beeindigd" />
+            <node concept="3_mHL5" id="YYGdfDeEbm" role="pRcyL">
+              <node concept="ean_g" id="YYGdfDeEbn" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:YYGdfDeEwF" resolve="verlof om te beginnen met over te steken" />
+              </node>
+              <node concept="3_kdyS" id="YYGdfDeEbo" role="pQQuc">
+                <ref role="Qu8KH" to="reqi:YYGdfDeEwE" resolve="voetgangerslicht" />
+              </node>
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="YYGdfDeEJm" role="1wO7i3">
+            <node concept="3_mHL5" id="YYGdfDeEJn" role="2z5D6P">
+              <node concept="ean_g" id="YYGdfDeEJo" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:YYGdfDeD9K" resolve="verspringen van de kleur naar rood" />
+              </node>
+              <node concept="3yS1BT" id="YYGdfDeEJp" role="pQQuc">
+                <ref role="3yS1Ki" node="YYGdfDeEbo" resolve="voetganger bij voetgangerslicht" />
+              </node>
+            </node>
+            <node concept="28IzFB" id="YYGdfDeEN3" role="2z5HcU">
+              <ref role="28I$VD" to="reqi:7jOLr3Vl3au" resolve="plaatsgevonden" />
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="YYGdfDeDAs" role="1nvPAL" />
       </node>
     </node>
   </node>
