@@ -414,13 +414,42 @@
     </node>
     <node concept="3H5gaA" id="YYGdfDeD8c" role="2bv6Cn" />
     <node concept="2bvS6$" id="7jOLr3Vl37P" role="2bv6Cn">
-      <property role="TrG5h" value="voetganger stapt aan de overkant op de stoep" />
+      <property role="TrG5h" value="Voetganger stapt aan de overkant op de stoep" />
       <node concept="2bpyt6" id="7jOLr3Vl3aN" role="2bv01j">
         <property role="TrG5h" value="plaatsgevonden" />
         <property role="3uiUDc" value="true" />
+        <property role="2n7kvO" value="true" />
       </node>
     </node>
-    <node concept="3H5gaA" id="4oA7p__MuZ0" role="2bv6Cn" />
+    <node concept="2mG0Cb" id="YYGdfDeGAY" role="2bv6Cn">
+      <property role="TrG5h" value="voetganger is overgestoken" />
+      <node concept="2mG0Ck" id="YYGdfDeGAZ" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value=" reeds overstekende voetganger" />
+        <property role="2mCGrO" value="kan" />
+        <ref role="1fE_qF" node="4oA7p__MrvQ" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="YYGdfDeGB0" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="keer aan de overkant op de stoep stappen" />
+        <ref role="1fE_qF" node="7jOLr3Vl37P" resolve="voetganger stapt aan de overkant op de stoep" />
+      </node>
+    </node>
+    <node concept="2mG0Cb" id="YYGdfDeIQe" role="2bv6Cn">
+      <property role="TrG5h" value="rechtsfeit / rechtsgevolg- voetgangers is overgestoken" />
+      <node concept="2mG0Ck" id="YYGdfDeIQf" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="verplichting om door te lopen" />
+        <property role="2mCGrO" value="eindigt als" />
+        <ref role="1fE_qF" node="4oA7p__Mrvt" resolve="Fatale verplichting zo snel mogelijk doorlopen" />
+      </node>
+      <node concept="2mG0Ck" id="YYGdfDeIQg" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetganger stapt aan de overkant op de stoep" />
+        <ref role="1fE_qF" node="7jOLr3Vl37P" resolve="Voetganger stapt aan de overkant op de stoep" />
+      </node>
+    </node>
+    <node concept="3H5gaA" id="YYGdfDeIMD" role="2bv6Cn" />
     <node concept="2bv6Zy" id="4oA7p__MuNW" role="2bv6Cn">
       <property role="TrG5h" value="kleur voetgangerslantaarn" />
       <node concept="2n4JhV" id="4oA7p__MuOs" role="1ECJDa">

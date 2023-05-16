@@ -97,6 +97,10 @@
       <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j">
         <child id="3717301156197626301" name="content" index="3DQ709" />
       </concept>
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+        <property id="779128492853699361" name="side" index="1Kfyot" />
+      </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
         <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
@@ -692,6 +696,39 @@
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit - voetganger stapt aan de overkant van de stoep" />
     <node concept="1HSql3" id="YYGdfDeFZ7" role="1HSqhF">
       <property role="TrG5h" value="beeindigen van de verplichting van fatale verplichting zo snel mogelijk doorlopen" />
+      <node concept="1wO7pt" id="YYGdfDeGxi" role="kiesI">
+        <node concept="2boe1W" id="YYGdfDeGxj" role="1wO7pp">
+          <node concept="2zaH5l" id="YYGdfDeGye" role="1wO7i6">
+            <ref role="2zaJI2" to="reqi:4oA7p__MBys" resolve="beeindigd" />
+            <node concept="3_mHL5" id="YYGdfDeGyU" role="pRcyL">
+              <node concept="ean_g" id="YYGdfDeGyV" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:YYGdfDeFmK" resolve="fatale verplichting zo snel mogelijk doorlopen " />
+              </node>
+              <node concept="3_kdyS" id="YYGdfDeGyW" role="pQQuc">
+                <ref role="Qu8KH" to="reqi:YYGdfDeFmJ" resolve="voetgangerslicht" />
+              </node>
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="YYGdfDeGzC" role="1wO7i3">
+            <node concept="3_mHL5" id="YYGdfDeGzD" role="2z5D6P">
+              <node concept="ean_g" id="YYGdfDeGzE" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:YYGdfDeIQg" resolve="voetganger stapt aan de overkant op de stoep" />
+                <node concept="1KehLL" id="YYGdfDeJ2D" role="lGtFl">
+                  <property role="1K8rM7" value="property_name" />
+                  <property role="1Kfyot" value="Fg1jLUVyTf/left" />
+                </node>
+              </node>
+              <node concept="3yS1BT" id="YYGdfDeGzF" role="pQQuc">
+                <ref role="3yS1Ki" node="YYGdfDeGyV" resolve="fatale verplichting zo snel mogelijk doorlopen " />
+              </node>
+            </node>
+            <node concept="28IzFB" id="YYGdfDeGNO" role="2z5HcU">
+              <ref role="28I$VD" to="reqi:7jOLr3Vl3aN" resolve="plaatsgevonden" />
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="YYGdfDeGxl" role="1nvPAL" />
+      </node>
     </node>
   </node>
 </model>

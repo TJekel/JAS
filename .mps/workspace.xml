@@ -176,6 +176,10 @@
               <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/regels.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -190,10 +194,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/regels.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684223830465</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep">
+      <created>1684226021529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684226021529</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -291,6 +298,7 @@
     <MESSAGE value="Eerste schets inzake JAS in ALEF" />
     <MESSAGE value="git attributes in main" />
     <MESSAGE value="Rechtsobject aanvulling bij Verlof om te beginnen met oversteken" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rechtsobject aanvulling bij Verlof om te beginnen met oversteken" />
+    <MESSAGE value="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep" />
   </component>
 </project>
