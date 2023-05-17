@@ -73,8 +73,6 @@
         <property role="2VcyFJ" value="true" />
       </node>
     </node>
-    <node concept="3H5gaA" id="4oA7p__Mwub" role="2bv6Cn" />
-    <node concept="3H5gaA" id="4oA7p__Mw_E" role="2bv6Cn" />
     <node concept="3Ih38J" id="4oA7p__MwvZ" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsbetrekking" />
     </node>
@@ -137,7 +135,7 @@
       </node>
     </node>
     <node concept="2mG0Cb" id="7jOLr3Vl3AI" role="2bv6Cn">
-      <property role="TrG5h" value="rechtsobject - fatale verplichting niet meer te beginne met oversteken" />
+      <property role="TrG5h" value="rechtsobject - fatale verplichting niet meer te beginnen met oversteken" />
       <node concept="2mG0Ck" id="7jOLr3Vl3AJ" role="2mG0Ct">
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="voetgangerslicht" />
@@ -306,6 +304,7 @@
       </node>
     </node>
     <node concept="3H5gaA" id="4oA7p__M_6b" role="2bv6Cn" />
+    <node concept="3H5gaA" id="YYGdfDeJrH" role="2bv6Cn" />
     <node concept="2bvS6$" id="4oA7p__Mv0a" role="2bv6Cn">
       <property role="TrG5h" value="bevoegdheid om te kunnen opleggen van administratieve sanctie" />
     </node>
@@ -385,7 +384,6 @@
         <ref role="1fE_qF" node="7jOLr3Vl2N1" resolve="verspringen van de kleur naar groen" />
       </node>
     </node>
-    <node concept="3H5gaA" id="7jOLr3Vl490" role="2bv6Cn" />
     <node concept="3H5gaA" id="7jOLr3Vl3bc" role="2bv6Cn" />
     <node concept="2bvS6$" id="7jOLr3Vl2WS" role="2bv6Cn">
       <property role="TrG5h" value="verspringen van de kleur naar rood" />

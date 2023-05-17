@@ -4,7 +4,6 @@
     <list default="true" id="a4a8beb5-74d7-40d2-bffb-1bf0161a7992" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/Specificaties/models/gegevens.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/models/gegevens.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/models/regels.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/models/regels.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,20 +171,6 @@
               <option name="myItemId" value="Project JAS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/regels.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project JAS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -211,7 +196,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project JAS" />
               <option name="myItemType" value="" />
@@ -224,8 +209,22 @@
               <option name="myItemId" value="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/regels.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1134538580341473127" />
+              <option name="myItemId" value="Project JAS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b42ef14e-33a1-4607-acd1-6f901f8b2a83(gegevens) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/gegevens.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5054760176444880801" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -284,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684226021529</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep (2)">
+      <created>1684230942524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684230942524</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -299,6 +305,7 @@
     <MESSAGE value="git attributes in main" />
     <MESSAGE value="Rechtsobject aanvulling bij Verlof om te beginnen met oversteken" />
     <MESSAGE value="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep" />
+    <MESSAGE value="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep (2)" />
   </component>
 </project>
