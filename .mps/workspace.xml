@@ -28,7 +28,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="43a482be-dd25-4329-9ec6-ce697b1d3138/r:2b35141c-f48e-4c0a-91e4-ff6e7d690f08(TempModule43a482be-dd25-4329-9ec6-ce697b1d3138/ConsoleModel_1779274406757700)">
+            <model ref="654f7278-8708-4bbd-9b0f-ec61bf1e2ba0/r:da7e772f-dac2-4c9a-8fb3-9322ebc93269(TempModule654f7278-8708-4bbd-9b0f-ec61bf1e2ba0/ConsoleModel_29172316369200)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -48,11 +48,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="YYGdfDe_kR">
-                <node concept="3balQm" id="YYGdfDe_kS" role="aymYE" />
-                <node concept="2Clz$F" id="YYGdfDe_kT" role="aymYO" />
-                <node concept="2_V_lH" id="YYGdfDe_kU" role="1PhJh3">
-                  <ref role="2_V_lI" node="YYGdfDe_kT" resolve="CommandHolder" />
+              <node concept="aymSD" id="7_EGCQ1Zq7y">
+                <node concept="3balQm" id="7_EGCQ1Zq7z" role="aymYE" />
+                <node concept="2Clz$F" id="7_EGCQ1Zq7$" role="aymYO" />
+                <node concept="2_V_lH" id="7_EGCQ1Zq7_" role="1PhJh3">
+                  <ref role="2_V_lI" node="7_EGCQ1Zq7$" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -152,48 +152,11 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project JAS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/regels.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project JAS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project JAS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,6 +174,30 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project JAS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/regels.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project JAS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project JAS" />
@@ -225,10 +212,23 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1134538580341473127" />
+              <option name="myItemId" value="5054760176444895414" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -289,7 +289,114 @@
   </component>
   <component name="UsagesViewTool">
     <version id="1" />
-    <tabs />
+    <tabs>
+      <tab>
+        <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
+          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
+            <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+          </child>
+        </result_provider>
+        <query>
+          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
+          <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
+            <node ref="r:b42ef14e-33a1-4607-acd1-6f901f8b2a83(gegevens)/5054760176444930761" title="overgestoken" />
+          </holder>
+        </query>
+        <usage_view>
+          <tree_wrapper>
+            <view_options>
+              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+            </view_options>
+            <contents caption="" excluded="false" isresult="false" results_section="false">
+              <role name="main root" />
+              <child caption="Searched nodes" excluded="false" isresult="false" results_section="false">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" />
+                <role name="searched nodes" />
+                <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="Specificaties" excluded="false" isresult="false" results_section="false" module_ref="d59a331b-7048-4232-b5c0-70df4737afe0(Specificaties)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="gegevens" excluded="false" isresult="false" results_section="false">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="gegevensmodel" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:b42ef14e-33a1-4607-acd1-6f901f8b2a83(gegevens)/5054760176444880801" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="Persoon (gegevensmodel)" info="(role: elem in: gegevensmodel)" excluded="false" isresult="false" results_section="false" nodePtr="r:b42ef14e-33a1-4607-acd1-6f901f8b2a83(gegevens)/5054760176444880886">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="overgestoken" info="(role: elem in: Persoon (gegevensmodel))" excluded="false" isresult="true" results_section="false" nodePtr="r:b42ef14e-33a1-4607-acd1-6f901f8b2a83(gegevens)/5054760176444930761">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:b42ef14e-33a1-4607-acd1-6f901f8b2a83(gegevens)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+              <child caption="Usages" excluded="false" isresult="false" results_section="true">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" />
+                <role name="results" />
+                <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="Specificaties" excluded="false" isresult="false" results_section="true" module_ref="d59a331b-7048-4232-b5c0-70df4737afe0(Specificaties)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="regels" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="fatale verplichting - zo snel mogelijk doorlopen" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels)/5054760176444920298" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="beeindiging van de rechtsbetrekking fatale verplichting zo snel mogelijk doorlopen" info="(role: regel in: fatale verplichting - zo snel mogelijk doorlopen)" excluded="false" isresult="false" results_section="true" nodePtr="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels)/5054760176444930456">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="beeindiging van de rechtsbetrekking fatale verplichting zo snel mogelijk doorlopen(altijd)" info="(role: versie in: beeindiging van de rechtsbetrekking fatale verplichting zo snel mogelijk doorlopen)" excluded="false" isresult="false" results_section="true" nodePtr="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels)/5054760176444930458">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="root to target" />
+                            <child caption="overgestoken (Persoon)" info="(role: predicaat in: enkele voorwaarde)" excluded="false" isresult="true" results_section="true" nodePtr="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels)/5054760176444931498">
+                              <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                              <role name="target" />
+                            </child>
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:67bfcfd8-0cda-4f0b-b8c4-8450f8449b71(regels)" />
+                    </child>
+                    <child caption="tests" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="beeindiging fatale verplichting zo snel mogelijk doorlopen" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:e73ac85a-28a8-4592-bafc-a3aa6c4bbe45(tests)/5054760176444947520" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="001" info="(role: testGevallen in: beeindiging fatale verplichting zo snel mogelijk doorlopen)" excluded="false" isresult="false" results_section="true" nodePtr="r:e73ac85a-28a8-4592-bafc-a3aa6c4bbe45(tests)/5054760176444947544">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="Hans" info="(role: situatie in: 001)" excluded="false" isresult="false" results_section="true" nodePtr="r:e73ac85a-28a8-4592-bafc-a3aa6c4bbe45(tests)/5054760176444948486">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="root to target" />
+                            <child caption="overgestoken (Persoon)" info="(role: eigenschappen in: Hans)" excluded="false" isresult="true" results_section="true" nodePtr="r:e73ac85a-28a8-4592-bafc-a3aa6c4bbe45(tests)/5054760176444948650">
+                              <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                              <role name="target" />
+                            </child>
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:e73ac85a-28a8-4592-bafc-a3aa6c4bbe45(tests)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+            </contents>
+          </tree_wrapper>
+        </usage_view>
+      </tab>
+    </tabs>
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>

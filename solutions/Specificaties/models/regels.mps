@@ -64,7 +64,6 @@
       <concept id="1480463129960252467" name="regelspraak.structure.Variabele" flags="ng" index="1wOUPG">
         <child id="1480463129960253435" name="waarde" index="1wOUU$" />
       </concept>
-      <concept id="1480463129960250518" name="regelspraak.structure.Actie" flags="ng" index="1wR5n9" />
       <concept id="1480463129961380548" name="regelspraak.structure.Subconditie" flags="ng" index="1wSDer">
         <child id="1480463129961380549" name="conditie" index="1wSDeq" />
       </concept>
@@ -257,7 +256,7 @@
           <node concept="2zaH5l" id="4oA7p__MARF" role="1wO7i6">
             <ref role="2zaJI2" to="reqi:4oA7p__M_nS" resolve="beeindigd" />
             <node concept="3_kdyS" id="4oA7p__MARG" role="pRcyL">
-              <ref role="Qu8KH" to="reqi:4oA7p__Mrva" resolve="Fatale verplichting niet meer beginnen over te steken" />
+              <ref role="Qu8KH" to="reqi:4oA7p__MuB$" resolve="fatale verplichting niet meer te beginnen met oversteken" />
             </node>
           </node>
           <node concept="19nIsh" id="4oA7p__MARH" role="1wO7i3">
@@ -428,50 +427,50 @@
   </node>
   <node concept="2bQVlO" id="4oA7p__M_7E">
     <property role="TrG5h" value="fatale verplichting - zo snel mogelijk doorlopen" />
-    <node concept="1HSql3" id="4oA7p__M_7F" role="1HSqhF">
-      <property role="TrG5h" value="voorwaarde voor fatale verplichting zo snel mogelijk doorlopen" />
-      <node concept="1wO7pt" id="4oA7p__M_7G" role="kiesI">
-        <node concept="2boe1W" id="4oA7p__M_7H" role="1wO7pp">
-          <node concept="2zbgrM" id="4oA7p__M_8U" role="1wO7i6">
-            <node concept="3_kdyS" id="4oA7p__M_8W" role="pQQuc">
-              <ref role="Qu8KH" to="reqi:4oA7p__M_c9" resolve="reeds overstekende voetganger" />
+    <node concept="1HSql3" id="7_EGCQ1ZxH9" role="1HSqhF">
+      <property role="TrG5h" value="voorwaarde voor fatale verplichting zo snel mogelijk doorlopen // probleem met reeds overstekende voetganger en voetganger bij voetgangerslicht? Het gaat duidelijk wel echt om de reeds overstekende voetganger. Hiervoor een nieuw feittye aangemaakt. Worden wel erg veel feittypes over en weer.." />
+      <node concept="1wO7pt" id="7_EGCQ1ZxHb" role="kiesI">
+        <node concept="2boe1W" id="7_EGCQ1ZxHc" role="1wO7pp">
+          <node concept="2zbgrM" id="7_EGCQ1ZxJJ" role="1wO7i6">
+            <node concept="3_kdyS" id="7_EGCQ1ZxJL" role="pQQuc">
+              <ref role="Qu8KH" to="reqi:7_EGCQ1ZzLJ" resolve="overstekende voetganger" />
             </node>
-            <node concept="ean_g" id="4oA7p__M_8X" role="eaaoM">
+            <node concept="ean_g" id="7_EGCQ1ZxJM" role="eaaoM">
               <ref role="Qu8KH" to="reqi:4oA7p__MuGJ" resolve="fatale verplichting zo snel mogelijk doorlopen" />
             </node>
           </node>
-          <node concept="2z5Mdt" id="4oA7p__M_dS" role="1wO7i3">
-            <node concept="3_mHL5" id="4oA7p__M_dT" role="2z5D6P">
-              <node concept="c2t0s" id="4oA7p__M_er" role="eaaoM">
+          <node concept="2z5Mdt" id="7_EGCQ1Zz83" role="1wO7i3">
+            <node concept="3_mHL5" id="7_EGCQ1Zz84" role="2z5D6P">
+              <node concept="c2t0s" id="7_EGCQ1Zz9$" role="eaaoM">
                 <ref role="Qu8KH" to="reqi:4oA7p__MuNn" resolve="kleur" />
               </node>
-              <node concept="3_mHL5" id="4oA7p__M_eo" role="pQQuc">
-                <node concept="ean_g" id="4oA7p__M_ep" role="eaaoM">
-                  <ref role="Qu8KH" to="reqi:4oA7p__MuQZ" resolve="voetgangerslicht" />
+              <node concept="3_mHL5" id="7_EGCQ1Zz9x" role="pQQuc">
+                <node concept="ean_g" id="7_EGCQ1Zz9y" role="eaaoM">
+                  <ref role="Qu8KH" to="reqi:4oA7p__MuQZ" resolve="voetgangerslicht van voetganger" />
                 </node>
-                <node concept="3yS1BT" id="4oA7p__M_eq" role="pQQuc">
-                  <ref role="3yS1Ki" node="4oA7p__M_8W" resolve="reeds overstekende voetganger" />
+                <node concept="3yS1BT" id="7_EGCQ1Zz9z" role="pQQuc">
+                  <ref role="3yS1Ki" node="7_EGCQ1ZxJL" resolve="voetganger bij voetgangerslicht" />
                 </node>
               </node>
             </node>
-            <node concept="28IAyu" id="4oA7p__M_f6" role="2z5HcU">
-              <node concept="16yQLD" id="4oA7p__M_g5" role="28IBCi">
+            <node concept="28IAyu" id="7_EGCQ1ZzbA" role="2z5HcU">
+              <node concept="16yQLD" id="7_EGCQ1Zzed" role="28IBCi">
                 <ref role="16yCuT" to="reqi:4oA7p__MuOO" resolve="Rood" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="4oA7p__M_7J" role="1nvPAL" />
+        <node concept="2ljwA5" id="7_EGCQ1ZxHe" role="1nvPAL" />
       </node>
     </node>
     <node concept="1HSql3" id="4oA7p__MBAo" role="1HSqhF">
-      <property role="TrG5h" value="beeindiging van de rechtsbetrekking fatale verplichting zo snel mogelijk doorlopen" />
+      <property role="TrG5h" value="beeindiging van de rechtsbetrekking fatale verplichting zo snel mogelijk doorlopen // Deze bespreken, willen we voor het oversteken ook een feittype? Zoals ongeveer hieronder? Identiek aan regelgroep Rechtsgevolgen van rechtsfeit - voetgangers stapt aan overkant van de stoep" />
       <node concept="1wO7pt" id="4oA7p__MBAq" role="kiesI">
         <node concept="2boe1W" id="4oA7p__MBAr" role="1wO7pp">
           <node concept="2zaH5l" id="4oA7p__MBBr" role="1wO7i6">
             <ref role="2zaJI2" to="reqi:4oA7p__MBys" resolve="beeindigd" />
             <node concept="3_kdyS" id="4oA7p__MBBt" role="pRcyL">
-              <ref role="Qu8KH" to="reqi:4oA7p__Mrvt" resolve="Fatale verplichting zo snel mogelijk doorlopen" />
+              <ref role="Qu8KH" to="reqi:4oA7p__MuGJ" resolve="fatale verplichting zo snel mogelijk doorlopen" />
             </node>
           </node>
           <node concept="2z5Mdt" id="4oA7p__MBKD" role="1wO7i3">
@@ -491,34 +490,31 @@
         <node concept="2ljwA5" id="4oA7p__MBAt" role="1nvPAL" />
       </node>
     </node>
-  </node>
-  <node concept="2bQVlO" id="7jOLr3Vl2As">
-    <property role="TrG5h" value="Juridisch relevant feit - het voetgangserstoplicht bij de oversteekplaats staat op:" />
-    <node concept="1HSql3" id="7jOLr3Vl2At" role="1HSqhF">
-      <property role="TrG5h" value="voetgangerslicht springt op groen" />
-      <node concept="1wO7pt" id="7jOLr3Vl2Au" role="kiesI">
-        <node concept="2boe1W" id="7jOLr3Vl2Av" role="1wO7pp">
-          <node concept="1wR5n9" id="7jOLr3Vl2Aw" role="1wO7i6" />
+    <node concept="1HSql3" id="7_EGCQ1ZzWC" role="1HSqhF">
+      <property role="TrG5h" value="Rechtsfeit op de overkant stappen en beeindiging van de rechtsbetrekking fatale verplichting zo snel mogelijk doorlopen" />
+      <node concept="1wO7pt" id="7_EGCQ1ZzWE" role="kiesI">
+        <node concept="2boe1W" id="7_EGCQ1ZzWF" role="1wO7pp">
+          <node concept="2zaH5l" id="7_EGCQ1Z$ev" role="1wO7i6">
+            <ref role="2zaJI2" to="reqi:4oA7p__MBys" resolve="beeindigd" />
+            <node concept="3_kdyS" id="7_EGCQ1Z$ex" role="pRcyL">
+              <ref role="Qu8KH" to="reqi:4oA7p__MuGJ" resolve="fatale verplichting zo snel mogelijk doorlopen" />
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="7_EGCQ1Z_RG" role="1wO7i3">
+            <node concept="3_mHL5" id="7_EGCQ1Z_RH" role="2z5D6P">
+              <node concept="ean_g" id="7_EGCQ1Z_RI" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:YYGdfDeIQg" resolve="voetganger stapt aan de overkant op de stoep" />
+              </node>
+              <node concept="3yS1BT" id="7_EGCQ1Z_RJ" role="pQQuc">
+                <ref role="3yS1Ki" node="7_EGCQ1Z$ex" resolve="fatale verplichting zo snel mogelijk doorlopen" />
+              </node>
+            </node>
+            <node concept="28IzFB" id="7_EGCQ1Z_UW" role="2z5HcU">
+              <ref role="28I$VD" to="reqi:7jOLr3Vl3aN" resolve="plaatsgevonden" />
+            </node>
+          </node>
         </node>
-        <node concept="2ljwA5" id="7jOLr3Vl2Ax" role="1nvPAL" />
-      </node>
-    </node>
-    <node concept="1HSql3" id="7jOLr3Vl2Ic" role="1HSqhF">
-      <property role="TrG5h" value="voetgangerslicht springt op knipperend groen" />
-      <node concept="1wO7pt" id="7jOLr3Vl2Ie" role="kiesI">
-        <node concept="2boe1W" id="7jOLr3Vl2If" role="1wO7pp">
-          <node concept="1wR5n9" id="7jOLr3Vl2Ig" role="1wO7i6" />
-        </node>
-        <node concept="2ljwA5" id="7jOLr3Vl2Ih" role="1nvPAL" />
-      </node>
-    </node>
-    <node concept="1HSql3" id="7jOLr3Vl2IN" role="1HSqhF">
-      <property role="TrG5h" value="voetgangerslicht springt op rood" />
-      <node concept="1wO7pt" id="7jOLr3Vl2IP" role="kiesI">
-        <node concept="2boe1W" id="7jOLr3Vl2IQ" role="1wO7pp">
-          <node concept="1wR5n9" id="7jOLr3Vl2IR" role="1wO7i6" />
-        </node>
-        <node concept="2ljwA5" id="7jOLr3Vl2IS" role="1nvPAL" />
+        <node concept="2ljwA5" id="7_EGCQ1ZzWH" role="1nvPAL" />
       </node>
     </node>
   </node>
@@ -559,17 +555,17 @@
       </node>
     </node>
     <node concept="1HSql3" id="7jOLr3Vl3tA" role="1HSqhF">
-      <property role="TrG5h" value="beeindigen van de verplichting om niet te beginnen met oversteken" />
+      <property role="TrG5h" value="beeindigen van de verplichting om niet te beginnen met oversteken // Bespreken met Diederik, is dit de 3 hoeksverhouding die wel willen zien? Lijk mij wel." />
       <node concept="1wO7pt" id="7jOLr3Vl3tC" role="kiesI">
         <node concept="2boe1W" id="7jOLr3Vl3tD" role="1wO7pp">
           <node concept="2zaH5l" id="7jOLr3Vl3v1" role="1wO7i6">
             <ref role="2zaJI2" to="reqi:4oA7p__M_nS" resolve="beeindigd" />
             <node concept="3_mHL5" id="7jOLr3Vl404" role="pRcyL">
               <node concept="ean_g" id="7jOLr3Vl405" role="eaaoM">
-                <ref role="Qu8KH" to="reqi:7jOLr3Vl3AK" resolve="fatale verplichting niet meer te beginnen met oversteken" />
+                <ref role="Qu8KH" to="reqi:4oA7p__MuB$" resolve="fatale verplichting niet meer te beginnen met oversteken" />
               </node>
-              <node concept="3_kdyS" id="7jOLr3Vl406" role="pQQuc">
-                <ref role="Qu8KH" to="reqi:7jOLr3Vl3AJ" resolve="voetgangerslicht" />
+              <node concept="3_kdyS" id="7_EGCQ1Zrul" role="pQQuc">
+                <ref role="Qu8KH" to="reqi:4oA7p__MuBz" resolve="voetganger bij voetgangerslicht" />
               </node>
             </node>
           </node>
@@ -578,8 +574,13 @@
               <node concept="ean_g" id="7jOLr3Vl3QP" role="eaaoM">
                 <ref role="Qu8KH" to="reqi:7jOLr3Vl3eO" resolve="verspringen van de kleur naar groen" />
               </node>
-              <node concept="3yS1BT" id="7jOLr3Vl3QQ" role="pQQuc">
-                <ref role="3yS1Ki" node="7jOLr3Vl406" resolve="voetgangerslicht" />
+              <node concept="3_mHL5" id="7_EGCQ1ZvkR" role="pQQuc">
+                <node concept="ean_g" id="7_EGCQ1ZvkS" role="eaaoM">
+                  <ref role="Qu8KH" to="reqi:4oA7p__MuQZ" resolve="voetgangerslicht van voetganger" />
+                </node>
+                <node concept="3yS1BT" id="7_EGCQ1ZvkQ" role="pQQuc">
+                  <ref role="3yS1Ki" node="7_EGCQ1Zrul" resolve="voetganger bij voetgangerslicht" />
+                </node>
               </node>
             </node>
             <node concept="28IzFB" id="7jOLr3Vl3QR" role="2z5HcU">
@@ -598,10 +599,10 @@
             <ref role="2zaJI2" to="reqi:4oA7p__MBys" resolve="beeindigd" />
             <node concept="3_mHL5" id="YYGdfDeFMr" role="pRcyL">
               <node concept="ean_g" id="YYGdfDeFMs" role="eaaoM">
-                <ref role="Qu8KH" to="reqi:YYGdfDeFmK" resolve="fatale verplichting zo snel mogelijk doorlopen " />
+                <ref role="Qu8KH" to="reqi:4oA7p__MuGJ" resolve="fatale verplichting zo snel mogelijk doorlopen" />
               </node>
-              <node concept="3_kdyS" id="YYGdfDeFMt" role="pQQuc">
-                <ref role="Qu8KH" to="reqi:YYGdfDeFmJ" resolve="voetgangerslicht" />
+              <node concept="3_kdyS" id="7_EGCQ1ZuiY" role="pQQuc">
+                <ref role="Qu8KH" to="reqi:4oA7p__MuGI" resolve="reeds overstekende voetganger" />
               </node>
             </node>
           </node>
@@ -610,8 +611,13 @@
               <node concept="ean_g" id="YYGdfDeFNx" role="eaaoM">
                 <ref role="Qu8KH" to="reqi:7jOLr3Vl3eO" resolve="verspringen van de kleur naar groen" />
               </node>
-              <node concept="3yS1BT" id="YYGdfDeFNy" role="pQQuc">
-                <ref role="3yS1Ki" node="YYGdfDeFMt" resolve="voetgangerslicht" />
+              <node concept="3_mHL5" id="7_EGCQ1Zunv" role="pQQuc">
+                <node concept="ean_g" id="7_EGCQ1Zunw" role="eaaoM">
+                  <ref role="Qu8KH" to="reqi:4oA7p__MuQZ" resolve="voetgangerslicht van voetganger" />
+                </node>
+                <node concept="3yS1BT" id="7_EGCQ1Zunu" role="pQQuc">
+                  <ref role="3yS1Ki" node="7_EGCQ1ZuiY" resolve=" reeds overstekende voetganger" />
+                </node>
               </node>
             </node>
             <node concept="28IzFB" id="YYGdfDeFS3" role="2z5HcU">

@@ -325,7 +325,7 @@
       </node>
       <node concept="2mG0Ck" id="4oA7p__MuQZ" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="voetgangerslicht" />
+        <property role="TrG5h" value="voetgangerslicht van voetganger" />
         <ref role="1fE_qF" node="4oA7p__MuML" resolve="voetgangerslicht" />
       </node>
     </node>
@@ -431,7 +431,7 @@
       </node>
       <node concept="2mG0Ck" id="YYGdfDeGB0" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="keer aan de overkant op de stoep stappen" />
+        <property role="TrG5h" value="op de overkant van de stoep stappen " />
         <ref role="1fE_qF" node="7jOLr3Vl37P" resolve="voetganger stapt aan de overkant op de stoep" />
       </node>
     </node>
@@ -447,6 +447,18 @@
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="voetganger stapt aan de overkant op de stoep" />
         <ref role="1fE_qF" node="7jOLr3Vl37P" resolve="Voetganger stapt aan de overkant op de stoep" />
+      </node>
+    </node>
+    <node concept="2mG0Cb" id="7_EGCQ1ZzLI" role="2bv6Cn">
+      <property role="TrG5h" value="overstekende voetganger bij voetgangerslicht" />
+      <node concept="2mG0Ck" id="7_EGCQ1ZzLK" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetgangerslicht van overstekende voetganger" />
+        <ref role="1fE_qF" node="4oA7p__MuML" resolve="voetgangerslicht" />
+      </node>
+      <node concept="2mG0Ck" id="7_EGCQ1ZzLJ" role="2mG0Ct">
+        <property role="TrG5h" value="overstekende voetganger" />
+        <ref role="1fE_qF" node="4oA7p__MrvQ" resolve="Persoon" />
       </node>
     </node>
     <node concept="3H5gaA" id="YYGdfDeIMD" role="2bv6Cn" />
