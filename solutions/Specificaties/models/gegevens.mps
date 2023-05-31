@@ -133,10 +133,25 @@
     <node concept="3H5gaA" id="4oA7p__MzDR" role="2bv6Cn" />
     <node concept="2bvS6$" id="7_EGCQ1ZOs2" role="2bv6Cn">
       <property role="TrG5h" value="Fatale verplichting aangifte loonbelasting te doen" />
+      <node concept="2bpyt6" id="7_EGCQ1ZOvO" role="2bv01j">
+        <property role="TrG5h" value="gestart" />
+      </node>
+      <node concept="2bpyt6" id="7_EGCQ1ZOw9" role="2bv01j">
+        <property role="TrG5h" value="beeindigd" />
+      </node>
+    </node>
+    <node concept="2mG0Cb" id="7_EGCQ1ZOxi" role="2bv6Cn">
+      <property role="TrG5h" value="Inhoudiudingsplichtige is " />
+      <node concept="2mG0Ck" id="7_EGCQ1ZOxj" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+      </node>
+      <node concept="2mG0Ck" id="7_EGCQ1ZOxk" role="2mG0Ct">
+        <property role="u$DAK" value="false" />
+      </node>
     </node>
     <node concept="3H5gaA" id="7_EGCQ1ZOqK" role="2bv6Cn" />
     <node concept="2mG0Cb" id="4oA7p__MuBy" role="2bv6Cn">
-      <property role="TrG5h" value="Inhoudingsplichtige dient aangifte loonbelasting te doen" />
+      <property role="TrG5h" value="Inhoudingsplichtige heeft een aangifte loonbelasting " />
       <node concept="2mG0Ck" id="4oA7p__MuBz" role="2mG0Ct">
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="inhoudingsplichtige " />
