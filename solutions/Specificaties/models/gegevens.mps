@@ -141,17 +141,23 @@
       </node>
     </node>
     <node concept="2mG0Cb" id="7_EGCQ1ZOxi" role="2bv6Cn">
-      <property role="TrG5h" value="Inhoudiudingsplichtige is " />
+      <property role="TrG5h" value="Inhoudiudingsplichtige in verzuim " />
       <node concept="2mG0Ck" id="7_EGCQ1ZOxj" role="2mG0Ct">
         <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="verzuimende inhoudingsplichtige" />
+        <ref role="1fE_qF" node="4oA7p__MrvQ" resolve="Nadeelhoudend rechtssubject - Inhoudingsplichtige" />
       </node>
       <node concept="2mG0Ck" id="7_EGCQ1ZOxk" role="2mG0Ct">
         <property role="u$DAK" value="false" />
+        <property role="TrG5h" value="aangifte loonbelasting" />
+        <ref role="1fE_qF" node="7_EGCQ1ZLfF" resolve="Rechtsobject - Aangifte Loonbelasting" />
       </node>
     </node>
-    <node concept="3H5gaA" id="7_EGCQ1ZOqK" role="2bv6Cn" />
+    <node concept="3Ih38J" id="7_EGCQ1ZOH8" role="2bv6Cn">
+      <property role="TrG5h" value="Rechtsbetrekking" />
+    </node>
     <node concept="2mG0Cb" id="4oA7p__MuBy" role="2bv6Cn">
-      <property role="TrG5h" value="Inhoudingsplichtige heeft een aangifte loonbelasting " />
+      <property role="TrG5h" value="Fatale verplichting tot het doen van aangifte loonbelasting " />
       <node concept="2mG0Ck" id="4oA7p__MuBz" role="2mG0Ct">
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="inhoudingsplichtige " />
@@ -159,10 +165,9 @@
         <ref role="1fE_qF" node="4oA7p__MrvQ" resolve="Persoon" />
       </node>
       <node concept="2mG0Ck" id="4oA7p__MuB$" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="de aangifte loonbelasting" />
+        <property role="TrG5h" value="fatale verplichting aangifte loonbelasting te doen" />
         <property role="2n7kvO" value="true" />
-        <ref role="1fE_qF" node="7_EGCQ1ZLfF" resolve="Rechtsobject - Aangifte Loonbelasting" />
+        <ref role="1fE_qF" node="7_EGCQ1ZOs2" resolve="Fatale verplichting aangifte loonbelasting te doen" />
       </node>
     </node>
     <node concept="3H5gaA" id="7jOLr3Vl3z7" role="2bv6Cn" />
