@@ -64,7 +64,6 @@
       <concept id="1480463129960252467" name="regelspraak.structure.Variabele" flags="ng" index="1wOUPG">
         <child id="1480463129960253435" name="waarde" index="1wOUU$" />
       </concept>
-      <concept id="1480463129960250518" name="regelspraak.structure.Actie" flags="ng" index="1wR5n9" />
       <concept id="1480463129961380548" name="regelspraak.structure.Subconditie" flags="ng" index="1wSDer">
         <child id="1480463129961380549" name="conditie" index="1wSDeq" />
       </concept>
@@ -195,6 +194,42 @@
           </node>
         </node>
         <node concept="2ljwA5" id="4oA7p__Mv2V" role="1nvPAL" />
+      </node>
+    </node>
+    <node concept="1HSql3" id="2m_jrNpJN7q" role="1HSqhF">
+      <property role="TrG5h" value="voorwaarde voor fatale verplichting niet meer te beginnen met oversteken 02 ?????" />
+      <node concept="1wO7pt" id="2m_jrNpJN7s" role="kiesI">
+        <node concept="2boe1W" id="2m_jrNpJN7t" role="1wO7pp">
+          <node concept="2zbgrM" id="2m_jrNpJNgO" role="1wO7i6">
+            <node concept="3_kdyS" id="2m_jrNpJNgQ" role="pQQuc">
+              <ref role="Qu8KH" to="reqi:4oA7p__MrvQ" resolve="Persoon" />
+            </node>
+            <node concept="ean_g" id="2m_jrNpJNgR" role="eaaoM">
+              <ref role="Qu8KH" to="reqi:4oA7p__MuB$" resolve="fatale verplichting niet meer te beginnen met oversteken" />
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="2m_jrNpJNnI" role="1wO7i3">
+            <node concept="3_mHL5" id="2m_jrNpJNnJ" role="2z5D6P">
+              <node concept="c2t0s" id="2m_jrNpJNpu" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:4oA7p__MuNn" resolve="kleur" />
+              </node>
+              <node concept="3_mHL5" id="2m_jrNpJNpr" role="pQQuc">
+                <node concept="ean_g" id="2m_jrNpJNps" role="eaaoM">
+                  <ref role="Qu8KH" to="reqi:4oA7p__MuQZ" resolve="voetgangerslicht" />
+                </node>
+                <node concept="3yS1BT" id="2m_jrNpJNpt" role="pQQuc">
+                  <ref role="3yS1Ki" node="2m_jrNpJNgQ" resolve="voetganger bij voetgangerslicht" />
+                </node>
+              </node>
+            </node>
+            <node concept="28IAyu" id="2m_jrNpJNrm" role="2z5HcU">
+              <node concept="16yQLD" id="2m_jrNpJNtS" role="28IBCi">
+                <ref role="16yCuT" to="reqi:4oA7p__MuOO" resolve="Rood" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="2m_jrNpJN7v" role="1nvPAL" />
       </node>
     </node>
     <node concept="3DQ70j" id="4oA7p__MBcL" role="lGtFl">
@@ -492,36 +527,6 @@
       </node>
     </node>
   </node>
-  <node concept="2bQVlO" id="7jOLr3Vl2As">
-    <property role="TrG5h" value="Juridisch relevant feit - het voetgangserstoplicht bij de oversteekplaats staat op:" />
-    <node concept="1HSql3" id="7jOLr3Vl2At" role="1HSqhF">
-      <property role="TrG5h" value="voetgangerslicht springt op groen" />
-      <node concept="1wO7pt" id="7jOLr3Vl2Au" role="kiesI">
-        <node concept="2boe1W" id="7jOLr3Vl2Av" role="1wO7pp">
-          <node concept="1wR5n9" id="7jOLr3Vl2Aw" role="1wO7i6" />
-        </node>
-        <node concept="2ljwA5" id="7jOLr3Vl2Ax" role="1nvPAL" />
-      </node>
-    </node>
-    <node concept="1HSql3" id="7jOLr3Vl2Ic" role="1HSqhF">
-      <property role="TrG5h" value="voetgangerslicht springt op knipperend groen" />
-      <node concept="1wO7pt" id="7jOLr3Vl2Ie" role="kiesI">
-        <node concept="2boe1W" id="7jOLr3Vl2If" role="1wO7pp">
-          <node concept="1wR5n9" id="7jOLr3Vl2Ig" role="1wO7i6" />
-        </node>
-        <node concept="2ljwA5" id="7jOLr3Vl2Ih" role="1nvPAL" />
-      </node>
-    </node>
-    <node concept="1HSql3" id="7jOLr3Vl2IN" role="1HSqhF">
-      <property role="TrG5h" value="voetgangerslicht springt op rood" />
-      <node concept="1wO7pt" id="7jOLr3Vl2IP" role="kiesI">
-        <node concept="2boe1W" id="7jOLr3Vl2IQ" role="1wO7pp">
-          <node concept="1wR5n9" id="7jOLr3Vl2IR" role="1wO7i6" />
-        </node>
-        <node concept="2ljwA5" id="7jOLr3Vl2IS" role="1nvPAL" />
-      </node>
-    </node>
-  </node>
   <node concept="2bQVlO" id="7jOLr3Vl3ji">
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit - verspringen van het licht naar groen" />
     <node concept="1HSql3" id="7jOLr3Vl3jj" role="1HSqhF">
@@ -728,6 +733,78 @@
           </node>
         </node>
         <node concept="2ljwA5" id="YYGdfDeGxl" role="1nvPAL" />
+      </node>
+    </node>
+  </node>
+  <node concept="2bQVlO" id="2m_jrNpJL5b">
+    <property role="TrG5h" value="rechtsgevolg - beginnen met oversteken bij rood licht" />
+    <node concept="1HSql3" id="2m_jrNpJL5c" role="1HSqhF">
+      <property role="TrG5h" value="rechtsgevolg - beginnen met oversteken bij rood licht 01" />
+      <node concept="1wO7pt" id="2m_jrNpJL5d" role="kiesI">
+        <node concept="2boe1W" id="2m_jrNpJL5e" role="1wO7pp">
+          <node concept="2zaH5l" id="2m_jrNpJLqc" role="1wO7i6">
+            <ref role="2zaJI2" to="reqi:2m_jrNpJLqH" resolve="ontstaan" />
+            <node concept="3_mHL5" id="2m_jrNpJLs2" role="pRcyL">
+              <node concept="ean_g" id="2m_jrNpJLs3" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:2m_jrNpJLcG" resolve="mogelijkheid tot het ontvangen van een administratieve sanctie" />
+              </node>
+              <node concept="3_kdyS" id="2m_jrNpJLti" role="pQQuc">
+                <ref role="Qu8KH" to="reqi:2m_jrNpJLcF" resolve="voetganger" />
+              </node>
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="2m_jrNpJLCj" role="1wO7i3">
+            <node concept="3_mHL5" id="2m_jrNpJLCk" role="2z5D6P">
+              <node concept="ean_g" id="2m_jrNpJLCl" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:2m_jrNpJKQ8" resolve="rechtshandeling door rood licht lopen" />
+              </node>
+              <node concept="3yS1BT" id="2m_jrNpJLCm" role="pQQuc">
+                <ref role="3yS1Ki" node="2m_jrNpJLti" resolve="voetganger" />
+              </node>
+            </node>
+            <node concept="28IzFB" id="2m_jrNpJLGO" role="2z5HcU">
+              <ref role="28I$VD" to="reqi:2m_jrNpJK09" resolve="plaatsgevonden" />
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="2m_jrNpJL5g" role="1nvPAL" />
+      </node>
+    </node>
+    <node concept="1HSql3" id="2m_jrNpJM2f" role="1HSqhF">
+      <property role="TrG5h" value="rechtsgevolg - beginnen met oversteken bij rood licht 02" />
+      <node concept="1wO7pt" id="2m_jrNpJM2g" role="kiesI">
+        <node concept="2boe1W" id="2m_jrNpJM2h" role="1wO7pp">
+          <node concept="2zaH5l" id="2m_jrNpJM2i" role="1wO7i6">
+            <ref role="2zaJI2" to="reqi:2m_jrNpJLqH" resolve="ontstaan" />
+            <node concept="3_mHL5" id="2m_jrNpJM2j" role="pRcyL">
+              <node concept="ean_g" id="2m_jrNpJM2k" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:2m_jrNpJLcG" resolve="mogelijkheid tot het ontvangen van een administratieve sanctie" />
+              </node>
+              <node concept="3_kdyS" id="2m_jrNpJM2l" role="pQQuc">
+                <ref role="Qu8KH" to="reqi:2m_jrNpJLcF" resolve="voetganger" />
+              </node>
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="2m_jrNpJM97" role="1wO7i3">
+            <node concept="3_mHL5" id="2m_jrNpJM98" role="2z5D6P">
+              <node concept="ean_g" id="2m_jrNpJM99" role="eaaoM">
+                <ref role="Qu8KH" to="reqi:2m_jrNpJK6X" resolve="beginnen met oversteken" />
+              </node>
+              <node concept="3_mHL5" id="2m_jrNpJMkz" role="pQQuc">
+                <node concept="ean_g" id="2m_jrNpJMk$" role="eaaoM">
+                  <ref role="Qu8KH" to="reqi:4oA7p__MuB$" resolve="fatale verplichting niet meer te beginnen met oversteken" />
+                </node>
+                <node concept="3yS1BT" id="2m_jrNpJMxI" role="pQQuc">
+                  <ref role="3yS1Ki" node="2m_jrNpJM2l" resolve="voetganger" />
+                </node>
+              </node>
+            </node>
+            <node concept="28IzFB" id="2m_jrNpJMjN" role="2z5HcU">
+              <ref role="28I$VD" to="reqi:2m_jrNpJJSS" resolve="plaatsgevonden" />
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="2m_jrNpJM2r" role="1nvPAL" />
       </node>
     </node>
   </node>

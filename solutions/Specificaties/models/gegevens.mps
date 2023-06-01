@@ -134,21 +134,21 @@
         <ref role="1fE_qF" node="4oA7p__Mrva" resolve="Fatale verplichting niet meer beginnen over te steken" />
       </node>
     </node>
-    <node concept="2mG0Cb" id="7jOLr3Vl3AI" role="2bv6Cn">
+    <node concept="2mG0Cb" id="2m_jrNpJK6W" role="2bv6Cn">
       <property role="TrG5h" value="rechtsobject - fatale verplichting niet meer te beginnen met oversteken" />
-      <node concept="2mG0Ck" id="7jOLr3Vl3AJ" role="2mG0Ct">
+      <node concept="2mG0Ck" id="2m_jrNpJK6X" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="voetgangerslicht" />
-        <property role="16Ztxt" value="true" />
+        <property role="TrG5h" value="beginnen met oversteken" />
         <property role="2mCGrO" value="heeft" />
-        <ref role="1fE_qF" node="4oA7p__MuML" resolve="voetgangerslicht" />
+        <ref role="1fE_qF" node="2m_jrNpJJPz" resolve="Beginnen met oversteken" />
       </node>
-      <node concept="2mG0Ck" id="7jOLr3Vl3AK" role="2mG0Ct">
-        <property role="u$DAK" value="false" />
+      <node concept="2mG0Ck" id="2m_jrNpJK6Y" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
         <property role="TrG5h" value="fatale verplichting niet meer te beginnen met oversteken" />
         <ref role="1fE_qF" node="4oA7p__Mrva" resolve="Fatale verplichting niet meer beginnen over te steken" />
       </node>
     </node>
+    <node concept="3H5gaA" id="2m_jrNpJKCB" role="2bv6Cn" />
     <node concept="3H5gaA" id="7jOLr3Vl3z7" role="2bv6Cn" />
     <node concept="3Ih38J" id="4oA7p__MzF1" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsbetrekking" />
@@ -307,6 +307,10 @@
     <node concept="3H5gaA" id="YYGdfDeJrH" role="2bv6Cn" />
     <node concept="2bvS6$" id="4oA7p__Mv0a" role="2bv6Cn">
       <property role="TrG5h" value="bevoegdheid om te kunnen opleggen van administratieve sanctie" />
+      <node concept="2bpyt6" id="2m_jrNpJLqH" role="2bv01j">
+        <property role="TrG5h" value="ontstaan" />
+        <property role="2VcyFJ" value="true" />
+      </node>
     </node>
     <node concept="2bvS6$" id="YYGdfDeFV7" role="2bv6Cn">
       <property role="TrG5h" value="voetganger stapt aan de overkant van de stoep" />
@@ -342,6 +346,20 @@
         <ref role="1fE_qF" node="4oA7p__Mv0a" resolve="bevoegdheid om te kunnen opleggen van administratieve sanctie" />
       </node>
     </node>
+    <node concept="2mG0Cb" id="2m_jrNpJLcE" role="2bv6Cn">
+      <property role="TrG5h" value="voetganger ontvangt administratieve sanctie" />
+      <node concept="2mG0Ck" id="2m_jrNpJLcF" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetganger" />
+        <property role="2mCGrO" value="krijgt" />
+        <ref role="1fE_qF" node="4oA7p__MrvQ" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="2m_jrNpJLcG" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="mogelijkheid tot het ontvangen van een administratieve sanctie" />
+        <ref role="1fE_qF" node="4oA7p__Mv0a" resolve="bevoegdheid om te kunnen opleggen van administratieve sanctie" />
+      </node>
+    </node>
     <node concept="3Ih38J" id="4oA7p__MwxQ" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsobjecten" />
     </node>
@@ -355,9 +373,52 @@
         </node>
       </node>
     </node>
-    <node concept="3H5gaA" id="7_EGCQ1ZJxL" role="2bv6Cn" />
+    <node concept="2bvS6$" id="2m_jrNpJJPz" role="2bv6Cn">
+      <property role="TrG5h" value="Beginnen met oversteken" />
+      <node concept="2bpyt6" id="2m_jrNpJJSS" role="2bv01j">
+        <property role="TrG5h" value="plaatsgevonden" />
+        <property role="2n7kvO" value="true" />
+        <property role="3uiUDc" value="true" />
+      </node>
+    </node>
     <node concept="3Ih38J" id="4oA7p__Mw$G" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsfeiten " />
+    </node>
+    <node concept="2bvS6$" id="2m_jrNpJJWA" role="2bv6Cn">
+      <property role="TrG5h" value="Voetganger loopt door rood licht" />
+      <node concept="2bpyt6" id="2m_jrNpJK09" role="2bv01j">
+        <property role="3uiUDc" value="true" />
+        <property role="TrG5h" value="plaatsgevonden" />
+        <property role="2n7kvO" value="true" />
+      </node>
+    </node>
+    <node concept="2mG0Cb" id="2m_jrNpJKQ6" role="2bv6Cn">
+      <property role="TrG5h" value="persoon die door rood licht loopt" />
+      <node concept="2mG0Ck" id="2m_jrNpJKQ7" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetganger" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="4oA7p__MrvQ" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="2m_jrNpJKQ8" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="rechtshandeling door rood licht lopen" />
+        <ref role="1fE_qF" node="2m_jrNpJJWA" resolve="Voetganger loopt door rood licht" />
+      </node>
+    </node>
+    <node concept="2mG0Cb" id="2m_jrNpJKZW" role="2bv6Cn">
+      <property role="TrG5h" value="persoon begint met oversteken door rood licht" />
+      <node concept="2mG0Ck" id="2m_jrNpJKZX" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="beginnen met oversteken" />
+        <property role="2mCGrO" value="met" />
+        <ref role="1fE_qF" node="2m_jrNpJJPz" resolve="Beginnen met oversteken" />
+      </node>
+      <node concept="2mG0Ck" id="2m_jrNpJKZY" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetganger loopt door rood licht" />
+        <ref role="1fE_qF" node="2m_jrNpJJWA" resolve="Voetganger loopt door rood licht" />
+      </node>
     </node>
     <node concept="3H5gaA" id="7jOLr3Vl32s" role="2bv6Cn" />
     <node concept="2bvS6$" id="7jOLr3Vl2N1" role="2bv6Cn">
