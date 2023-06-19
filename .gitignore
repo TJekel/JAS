@@ -1,0 +1,16 @@
+# -----------------------------------------------------------
+# ALEF/MPS:
+/**/classes_gen/
+/**/source_gen/services/
+/**/source_gen.caches/
+/**/test_gen/
+/**/test_gen.caches/
+/**/generated/
+/**/trace.info
+/.mps/shelf/
+/.mps/workspace.xml
+/**/source_gen/regels/
+/**/source_gen/rapportages/
+/**/source_gen/gegevens/
+/**/source_gen/besturing/
+/**/source_gen/tests/

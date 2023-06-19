@@ -563,38 +563,6 @@
         <node concept="2ljwA5" id="7jOLr3Vl3jn" role="1nvPAL" />
       </node>
     </node>
-    <node concept="1HSql3" id="7jOLr3Vl3tA" role="1HSqhF">
-      <property role="TrG5h" value="beeindigen van de verplichting om niet te beginnen met oversteken" />
-      <node concept="1wO7pt" id="7jOLr3Vl3tC" role="kiesI">
-        <node concept="2boe1W" id="7jOLr3Vl3tD" role="1wO7pp">
-          <node concept="2zaH5l" id="7jOLr3Vl3v1" role="1wO7i6">
-            <ref role="2zaJI2" to="reqi:4oA7p__M_nS" resolve="beeindigd" />
-            <node concept="3_mHL5" id="7jOLr3Vl404" role="pRcyL">
-              <node concept="ean_g" id="7jOLr3Vl405" role="eaaoM">
-                <ref role="Qu8KH" to="reqi:7jOLr3Vl3AK" resolve="fatale verplichting niet meer te beginnen met oversteken" />
-              </node>
-              <node concept="3_kdyS" id="7jOLr3Vl406" role="pQQuc">
-                <ref role="Qu8KH" to="reqi:7jOLr3Vl3AJ" resolve="voetgangerslicht" />
-              </node>
-            </node>
-          </node>
-          <node concept="2z5Mdt" id="7jOLr3Vl3QN" role="1wO7i3">
-            <node concept="3_mHL5" id="7jOLr3Vl3QO" role="2z5D6P">
-              <node concept="ean_g" id="7jOLr3Vl3QP" role="eaaoM">
-                <ref role="Qu8KH" to="reqi:7jOLr3Vl3eO" resolve="verspringen van de kleur naar groen" />
-              </node>
-              <node concept="3yS1BT" id="7jOLr3Vl3QQ" role="pQQuc">
-                <ref role="3yS1Ki" node="7jOLr3Vl406" resolve="voetgangerslicht" />
-              </node>
-            </node>
-            <node concept="28IzFB" id="7jOLr3Vl3QR" role="2z5HcU">
-              <ref role="28I$VD" to="reqi:7jOLr3Vl3a1" resolve="plaatsgevonden" />
-            </node>
-          </node>
-        </node>
-        <node concept="2ljwA5" id="7jOLr3Vl3tF" role="1nvPAL" />
-      </node>
-    </node>
     <node concept="1HSql3" id="YYGdfDeFBp" role="1HSqhF">
       <property role="TrG5h" value="beeindigen van de verplichting van fatale verplichting zo snel mogelijk doorlopen" />
       <node concept="1wO7pt" id="YYGdfDeFBr" role="kiesI">

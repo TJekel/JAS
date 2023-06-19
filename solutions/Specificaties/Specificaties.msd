@@ -41,6 +41,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="d59a331b-7048-4232-b5c0-70df4737afe0(Specificaties)" version="0" />
+    <module reference="8cdba83d-8f1a-4a69-8b02-20289fe683c1(TOKASpecificaties)" version="0" />
     <module reference="7b05b09e-3ac1-4a27-83e2-e4e1a5f17cf3(beslistabelspraak)" version="0" />
     <module reference="65239ca4-9057-41f8-999d-97fa1a60b298(besturingspraak)" version="0" />
     <module reference="08d6f877-03cc-45d3-b03c-d6f786266853(bronspraak)" version="0" />

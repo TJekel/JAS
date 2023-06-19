@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4a8beb5-74d7-40d2-bffb-1bf0161a7992" name="Changes" comment="">
+    <list default="true" id="a4a8beb5-74d7-40d2-bffb-1bf0161a7992" name="Changes" comment="HTML - rapporten - toevoeging">
+      <change afterPath="$PROJECT_DIR$/solutions/Specificaties/models/Besturing.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/models/gegevens.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/models/gegevens.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/Specificaties.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/Specificaties.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/HTML/gegevens/gegevensmodel_ObjectModel.html" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/HTML/gegevens/gegevensmodel_ObjectModel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/gegevens/algemeen_plan-objectmodel.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/gegevens/algemeen_plan-objectmodel.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/gegevens/objectModel_b42ef14e_33a1_4607_acd1_6f901f8b2a83_5054760176444880801.rb" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/gegevens/objectModel_b42ef14e_33a1_4607_acd1_6f901f8b2a83_5054760176444880801.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/gegevens/standaard_merlin_plan-merlin_checkpoint.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/gegevens/standaard_merlin_plan-merlin_checkpoint.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/gegevens/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/classes_gen/gegevens/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/Specificaties/models/regels.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/models/regels.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/models/tests.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/models/tests.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/source_gen.caches/gegevens/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/source_gen.caches/gegevens/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/source_gen/HTML/gegevens/gegevensmodel_ObjectModel.html" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/source_gen/HTML/gegevens/gegevensmodel_ObjectModel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/source_gen/HTML/rapporten/JAS.html" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/source_gen/HTML/rapporten/JAS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/source_gen/gegevens/algemeen_plan-objectmodel.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/source_gen/gegevens/algemeen_plan-objectmodel.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/source_gen/gegevens/objectModel_b42ef14e_33a1_4607_acd1_6f901f8b2a83_5054760176444880801.rb" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/source_gen/gegevens/objectModel_b42ef14e_33a1_4607_acd1_6f901f8b2a83_5054760176444880801.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/source_gen/gegevens/standaard_merlin_plan-merlin_checkpoint.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/source_gen/gegevens/standaard_merlin_plan-merlin_checkpoint.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/Specificaties/source_gen/gegevens/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/Specificaties/source_gen/gegevens/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +42,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="35720907-6072-4121-80a8-b901c1667a87/r:d74f6599-4a59-4822-8ac9-e4a827d22c7f(TempModule35720907-6072-4121-80a8-b901c1667a87/ConsoleModel_809066170302700)">
+            <model ref="582a3654-ae5f-4756-bf49-4ccb4dc1332e/r:68a76b15-d4f4-44f8-9080-ea8d9bbdb4b0(TempModule582a3654-ae5f-4756-bf49-4ccb4dc1332e/ConsoleModel_2365787578857700)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -48,11 +62,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2m_jrNpJGC8">
-                <node concept="3balQm" id="2m_jrNpJGC9" role="aymYE" />
-                <node concept="2Clz$F" id="2m_jrNpJGCa" role="aymYO" />
-                <node concept="2_V_lH" id="2m_jrNpJGCb" role="1PhJh3">
-                  <ref role="2_V_lI" node="2m_jrNpJGCa" resolve="CommandHolder" />
+              <node concept="aymSD" id="1d70xies3l5">
+                <node concept="3balQm" id="1d70xies3l6" role="aymYE" />
+                <node concept="2Clz$F" id="1d70xies3l7" role="aymYO" />
+                <node concept="2_V_lH" id="1d70xies3l8" role="1PhJh3">
+                  <ref role="2_V_lI" node="1d70xies3l7" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -150,26 +164,10 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <navigator currentView="FileSystem" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project JAS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project JAS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project JAS" />
@@ -194,7 +192,23 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:b42ef14e-33a1-4607-acd1-6f901f8b2a83(gegevens) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/gegevens.mps]" />
+              <option name="myItemId" value="r:75b9e363-53b0-4895-8a58-106402b21ffe(rapporten) in IdeaFile[path: C:/Users/jekea01/MPSProjects/Project JAS/solutions/Specificaties/models/rapporten.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project JAS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project JAS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d59a331b-7048-4232-b5c0-70df4737afe0" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,35 +265,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684136922160</updated>
     </task>
-    <task id="LOCAL-00002" summary="git attributes in main">
-      <created>1684160044095</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1684160044095</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Rechtsobject aanvulling bij Verlof om te beginnen met oversteken">
-      <created>1684223830465</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1684223830465</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep">
-      <created>1684226021529</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1684226021529</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep (2)">
-      <created>1684230942524</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1684230942524</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -1033,14 +1019,19 @@
     </default_view_options>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Eerste schets inzake JAS in ALEF" />
-    <MESSAGE value="git attributes in main" />
-    <MESSAGE value="Rechtsobject aanvulling bij Verlof om te beginnen met oversteken" />
-    <MESSAGE value="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep" />
-    <MESSAGE value="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rechtsfeit/rechtshandeling aanvulling voetganger stapt aan de overkant op de stoep (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eerste schets inzake JAS in ALEF" />
   </component>
 </project>
